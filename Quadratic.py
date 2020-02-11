@@ -1,11 +1,23 @@
+import math
 print('Enter values of a, b,c for the quadratic equation : ax2+bx+c')
-print('enter a')
-a=int(input())
-print('enter b')
-b=int(input())
-print('enter c')
-c=int(input())
-del=math.pow(b,2)-2*a*c
-sq=math.sqrt(del)
-r1=(-b+sq)/2*a
-r2=(-b-sq)/2*a
+while(True):
+    print('enter a')
+    a=float(input())
+    print('enter b')
+    b=float(input())
+    print('enter c')
+    c=float(input())
+    try:
+        d=pow(b,2)
+        print(d)
+        de=d-2*a*c
+        print(de)
+        sq=math.sqrt(de)
+        r1=(-b+sq)/2*a
+        r2=(-b-sq)/2*a
+    except:
+        print("Enter valid values ")
+        continue
+        
+print(r1)
+print(r2)
