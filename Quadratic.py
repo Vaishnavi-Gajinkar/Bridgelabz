@@ -10,7 +10,7 @@ while(True):
     try:
         d=pow(b,2)
         print(d)
-        de=d-2*a*c
+        de=d-4*a*c
         print(de)
         sq=math.sqrt(de)
         r1=(-b+sq)/2*a
