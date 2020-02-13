@@ -21,10 +21,7 @@ for k in range(-1,-8,-1):
     sum+=dig*pow(2,dec)
     dec+=1
 print(sum)
-
-
 if sum in PowerOfTwo.s:
     print("This is a power of two")
 else:
     print("It is not a power of two")
-
