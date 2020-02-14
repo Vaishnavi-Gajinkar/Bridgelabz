@@ -3,11 +3,10 @@ print("enter your stake")
 s=int(input())
 print("Enter your goal")
 g=int(input())
-print("Enter no of times you want to bet")
-n=int(input())
+
 count=0
 i=0
-while s>0 and s<g and i<=n:
+while s>0 and s<g:
     num = random.randint(1,100)
     print("random ",num)
     flip= random.randint(1,2)

@@ -11,3 +11,5 @@ for j in range(len(l)-1):
     f.write(l[j])
     f.write(",")
 f.write(l[-1])
+f1= open("List.txt",'r')
+f1.read()
