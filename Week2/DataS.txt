@@ -1,0 +1,7 @@
+apple
+bottle
+cords
+knob
+mouse
+
+saurabhsaurabh/usr/local/bin/python3.8 /home/admin1/Desktop/Vaishnavi_Gajinkar/Vython/Week2/OrderedLL.py
