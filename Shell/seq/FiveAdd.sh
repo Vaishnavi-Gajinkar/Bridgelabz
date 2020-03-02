@@ -7,7 +7,7 @@ diff=$(($upper_limit-$lower_limit+1))
 
 for (( i=1; i<=5; i++))
 do
-	rand_val=$(($((RANDOM%$diff))+$lower_limit))
+	rand_val=$(( RANDOM % diff + lower_limit ))
 	score=$(($score+$rand_val))
 done
 
